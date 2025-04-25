@@ -1,0 +1,78 @@
+.compras-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .compras-modal {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+  .compras-modal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .compras-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .compra-item {
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 6px solid #4CAF50;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .compra-item h3 {
+    margin: 0;
+    color: #2c3e50;
+  }
+  
+  .compra-item p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .btn-cerrar {
+    margin-top: 20px;
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-cerrar:hover {
+    background-color: #c0392b;
+  }
+  
+  .sin-compras {
+    text-align: center;
+    color: #999;
+  }
+  

@@ -1,0 +1,130 @@
+/* styles/MotoInfo.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+h2, h3 {
+  color: #333;
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+  color: #555;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.btn-contado {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-calcular {
+  background-color: #2196F3;
+  color: white;
+}
+
+.btn-financiar {
+  background-color: #FF9800;
+  color: white;
+}
+
+/* styles/MotoInfo.css */
+.formulario-dni,
+.formulario-meses {
+  margin-bottom: 20px; /* Separación entre los campos */
+}
+
+.formulario-dni input,
+.formulario-meses input {
+  width: 100%;
+  max-width: 200px; /* Ajustamos el tamaño máximo del input */
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Estilo para el texto de error */
+.error-text {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+
+.error-text {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+
+
+
+.error-text {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.resultado-cuota {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button, input {
+  transition: transform 0.3s ease;
+}
+
+button:hover, input:focus {
+  transform: scale(1.05);
+}

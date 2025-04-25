@@ -1,13 +1,97 @@
 body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f3f3;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 10px 20px;
+}
+
+.navbar img {
+  height: 40px;
+}
+
+.navbar nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar nav a:hover {
+  color: #cce6ff;
+}
+
+h1 {
+  color: #004a99;
+  margin: 20px 0;
+}
+
+.moto-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.moto-card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.moto-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.moto-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.details {
+  background-color: rgb(66, 59, 59);
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 80%;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: #004a99;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00306d;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
 }

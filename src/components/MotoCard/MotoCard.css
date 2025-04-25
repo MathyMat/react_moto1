@@ -1,0 +1,27 @@
+.moto-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .moto-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  
+  .moto-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 150px;
+  }
+  
+  .moto-card h2 {
+    margin-top: 10px;
+    color: #004a99;
+    font-size: 1.2rem;
+  }
