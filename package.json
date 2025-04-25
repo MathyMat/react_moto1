@@ -18,6 +18,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "server": "node server.js",
     "dev": "concurrently \"npm start\" \"npm run server\""
