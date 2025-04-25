@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react_moto1/static/css/main.80f17e0d.css",
+    "main.js": "/react_moto1/static/js/main.baf56017.js",
+    "index.html": "/react_moto1/index.html",
+    "main.80f17e0d.css.map": "/react_moto1/static/css/main.80f17e0d.css.map",
+    "main.baf56017.js.map": "/react_moto1/static/js/main.baf56017.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80f17e0d.css",
+    "static/js/main.baf56017.js"
+  ]
+}
